@@ -1,0 +1,452 @@
+.back {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: fixed; /* essential for background to be fully covered */
+    filter: brightness(70%);
+    filter: blur(5px);
+}
+
+
+.back1 {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: fixed; /* essential for background to be fully covered */
+}
+
+* {
+    font-family: impact;
+}
+
+
+
+
+.bg-text {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+
+
+.success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.384);
+    color: aliceblue;
+}
+
+.pink {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
+.backgroundtext {
+    font-family: Impact;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22em;
+    padding-bottom: 25%;
+    color: white;
+    z-index: -1;
+    filter: blur(5px);
+    /* filter: brightness(25%); */
+   
+}
+
+
+
+div.basicplan {
+    position: fixed;
+    top: 35%;
+    left: 180px;
+    /* top: 550px;
+    left: 1px;
+    padding-left: 2; */
+}
+
+
+div.basicplantext {
+    position: fixed;
+    top: 57%;
+    left: 200px;
+    color: rgb(185, 183, 183);
+    text-shadow: 2px 2px 8px black;
+    text-align: center;
+    
+}
+
+
+
+/* HARMONY FITNESS CLUB  */
+.brand1 {
+    padding-top: 95px;
+    z-index: -1;
+    color: rgb(185, 183, 183);
+    text-shadow: 2px 2px 8px black;
+}
+
+
+.brand2 {
+    z-index: -1;
+    color: rgb(185, 183, 183);
+    text-shadow: 2px 2px 8px black;
+}
+
+
+
+div.platinumplan {
+    position: fixed;
+    top: 34%;
+    right: 160px;
+}
+
+
+
+div.platinumplantext {
+    position: fixed;
+    top: 57%;
+    right: 180px;
+    text-align: center;
+    color: rgb(185, 183, 183);
+    text-shadow: 2px 2px 8px black;
+    /* background-color:rgba(150, 172, 166, 0.699) */
+   
+}
+
+
+/* BIG TEXT */
+.membertext2 {
+    font-size: 7em;
+     color: rgb(61, 184, 221);
+    z-index: 2;
+    padding-top: 137px;
+    padding-right: 80px;
+    /* font-weight: bold; */
+    height: 100px;
+    text-shadow: 2px 2px 8px black;
+}
+
+.membertext {
+    padding-top: 130px;
+    padding-left: 50px;
+    font-size: 7em;
+    color: rgba(52, 240, 67, 0.712);
+    text-shadow: 2px 2px 8px black;
+    z-index: 2;
+    /* font-weight: bold; */ 
+}
+
+
+
+
+
+
+
+
+
+div.otherplan {
+    position: fixed;
+    top: 43%;
+    right: 350px;
+    padding-right: 56px;
+}
+
+
+
+
+
+.img-login {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    border-style: solid;
+    border-color: aqua;
+    height: 500px;
+}
+
+
+.background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+   
+}
+
+
+.work {
+    z-index: 2;
+
+}
+.workgirl {
+    display: flex;
+    height: 500px;
+    padding-bottom: 0%;
+    width: 100%;
+    object-fit: contain;
+    padding-left: 100px;
+    z-index: 2;
+   
+}
+
+
+.member {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 300px ;   
+}
+
+
+
+/* form info */
+
+#up {
+    padding-top: 25px;
+    
+}
+
+form {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 8px black;
+}
+
+.login {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    padding-right: 300px;
+    padding-top: 200px;
+    
+}
+
+#email {
+    padding-left: 100px;
+}
+#pw {
+    padding-left: 100px;
+}
+
+
+
+button {
+    color: white;
+    background-color: rgb(112, 112, 112);
+    font-size: 20px;
+}
+
+.x {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    
+   
+}
+
+
+.run2 {
+    width: 1100px;
+    z-index: -999;
+    
+}
+
+
+
+.exit {
+    padding-left: 800px; 
+    padding-bottom: 450px; 
+    display: flex;
+    
+}
+
+
+.runner {
+    display: flex;  
+
+}
+
+
+
+.run1 {
+    padding-left: 150px;
+    /* border-style:solid;  */
+    border-color: red;
+    /* padding-right:100px; */
+    /* height: 500px; */
+    position: relative;
+    top: 185px;
+    height: 900px;
+    
+
+  
+}
+
+    
+
+
+div.member1 {
+    top: 0;
+    left: 0;
+    position: fixed;
+   
+}
+
+div.member2 {
+ 
+    right: 0;
+    padding-left: 1500px;
+   
+    position: fixed;
+    top: -238px;
+    left: 3px;
+   
+   
+}
+    
+.bigger {
+  
+    font-size: 2em;
+}
+.backgroundtext2 {
+    font-family: Impact;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16em;
+    padding-bottom: 25%;
+    color: white;
+    z-index: -1;
+    filter: blur(4px);
+}
+
+
+.girl {
+    filter: blur(3px);
+    height: 100vh;
+}
+
+
+.txtcenter {
+    text-align: center;
+}
+
+.squat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.girl2 {
+    height: 100vh;
+}
+
+.abouttxt {
+    width: 50%;
+    padding-bottom: 25%;
+    padding-left: 100px;
+    padding-top: 300px;
+  
+
+}
+
+.bigger {
+    font-size: 95;
+}
+
+.more {
+    font-size: 3.8em;
+}
+
+.aboutbg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.logbk {
+    color: rgb(230, 84, 205);;
+    
+}
+
+a:hover {
+  color: aqua;  
+}
+
+
+
+   /* padding-left: 20px;
+
+   
+   
+}
+
+
+
+
+
+/* .run1 {
+    height: 700px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px; */
+
+
+
+
+
+
+
+.idk {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    height: 100vh;
+    width: 100%;
+    
+    
+   
+    
+}
+
+/* .justrun1 {
+    top: -150px;
+    padding-right: 350px;
+    position: relative;
+    z-index: 1; */
+   
+    
+
+
+
+#right {
+    /* text-align: right; */
+}
